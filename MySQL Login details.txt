@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "Hai"
+mkdir -p /home/MYSQL_BACKUP/$(date +\%F)
+
+mysqldump -h 127.0.0.1 --user admin --password='RedHat' asteriskcdrdb > /home/MYSQL_BACKUP/$(date +\%F)/asteriskcdrdb.sql
+
+
+MySQL  Login Details 
+
+DB 
+
+mysql -u root -p 
+Global@2020
+
+
+ 

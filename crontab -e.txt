@@ -1,0 +1,8 @@
+
+59      18      *       *       *       systemctl stop asterisk
+
+0       7       *       *       *       systemctl start asterisk
+
+30      7       *       *       *       /sbin/reboot
+
+0       19      *       *       *       /home/mysql_autoscript.sh
